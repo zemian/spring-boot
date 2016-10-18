@@ -1,0 +1,7 @@
+= zemian-dev
+Zemian Deng <zemiandeng@gmail.com>
+
+My own dev kit to explore spring-boot project
+
+== git branch history
+ git checkout -b zemian-dev v1.4.1.RELEASE
