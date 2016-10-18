@@ -1,0 +1,22 @@
+= spring-boot hello
+
+A minimal command line Spring app using boot.
+
+== Building behind a proxy env
+
+----
+mvn compile
+mvn spring-boot:run
+----
+
+NOTE: If you behind a proxy, the maven pom's parent dependency might fail to download. In this case
+try moving it to dependencies section as workaround, and then reset pom again to rerun.
+----
+        <!-- Workaround to fetch the dependency first -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-parent</artifactId>
+            <version>1.4.1.RELEASE</version>
+            <type>pom</type>
+        </dependency>
+----
