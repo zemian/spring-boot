@@ -39,3 +39,12 @@ another property like this.
 Or you can use system props
  mvn exec:java -Dstart-class=org.springframework.boot.SpringApplication -Dspring.main.sources=zemian.spring.boot.hello.Hello
 
+
+== Spring Boot Samples
+- spring-boot-sample-simple
+
+- spring-boot-sample-web-static
+- spring-boot-sample-web-jsp
+- spring-boot-sample-web-ui (themeleaf2)
+- spring-boot-sample-web-thymeleaf3
+
