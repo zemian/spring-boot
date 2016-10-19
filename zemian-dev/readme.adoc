@@ -5,3 +5,10 @@ My own dev kit to explore spring-boot project
 
 == git branch history
  git checkout -b zemian-dev v1.4.1.RELEASE
+
+ 
+== How to start spring-boot-samples with different port
+ cd spring-boot-samples/spring-boot-sample-web-jsp
+ mvn spring-boot:run -Dserver.port=8081
+ http://localhost:8081/
+
