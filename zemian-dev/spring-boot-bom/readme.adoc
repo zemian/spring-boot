@@ -1,0 +1,3 @@
+= spring-boot-bom
+
+Using Spring Boot as maven BOM instead of the parent pom.
