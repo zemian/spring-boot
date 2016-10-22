@@ -1,4 +1,4 @@
-package zemian.spring.tinywebapp;
+package zemian.spring.boot.webapp;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;

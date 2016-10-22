@@ -1,4 +1,4 @@
-package zemian.spring.tinywebapp;
+package zemian.spring.boot.webapp;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
@@ -14,7 +14,8 @@ public class SpringWebappInitializer extends AbstractAnnotationConfigDispatcherS
 
     @Override
     protected Class<?>[] getServletConfigClasses() {
-        return new Class[] { SpringWebappConfig.class };
+//        return new Class[] { SpringWebappConfig.class };
+        return new Class[] { AutoSpringWebappConfig.class };
     }
 
     @Override

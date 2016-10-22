@@ -13,6 +13,8 @@
 
   <logger name="zemian" level="debug" />
   <logger name="org.springframework" level="info" />
+  <!--
   <logger name="org.springframework.web" level="debug" />
+  -->
 
 </configuration>
