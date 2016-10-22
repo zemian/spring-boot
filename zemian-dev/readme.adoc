@@ -12,3 +12,12 @@ My own dev kit to explore spring-boot project
  mvn spring-boot:run -Dserver.port=8081
  http://localhost:8081/
 
+
+== Interesting Spring Boot Samples
+- spring-boot-sample-simple
+
+- spring-boot-sample-web-static
+- spring-boot-sample-web-jsp
+- spring-boot-sample-web-ui (themeleaf2)
+- spring-boot-sample-web-thymeleaf3
+
