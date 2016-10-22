@@ -1,0 +1,6 @@
+= spring-mvc
+
+A tiny and minimal Spring MVC webapp.
+
+Try http://localhost:8080/main/
+
