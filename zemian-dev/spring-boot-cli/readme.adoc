@@ -1,6 +1,6 @@
-= spring-boot hello-bare
+= spring-boot-bare
 
-A minimal command line Spring app using spring-boot.
+A minimal command line Spring Boot app.
 
 
 == Building behind a proxy env
