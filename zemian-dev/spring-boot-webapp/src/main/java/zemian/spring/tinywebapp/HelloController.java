@@ -14,12 +14,12 @@ public class HelloController {
 
     @RequestMapping("/")
     public String index() {
-        return "/WEB-INF/jsp/index.jsp";
+        return "index";
     }
 
     @RequestMapping("/hello")
     public String hello(HttpServletRequest req) {
         req.setAttribute("name", "World!");
-        return "/WEB-INF/jsp/hello.jsp";
+        return "hello";
     }
 }

@@ -21,3 +21,9 @@ My own dev kit to explore spring-boot project
 - spring-boot-sample-web-ui (themeleaf2)
 - spring-boot-sample-web-thymeleaf3
 
+
+== How to map Spring DispatcherServlet to process all requests.
+
+Ensure you map the servet to "/" and not "/*" !!!
+
+See http://stackoverflow.com/a/30169044/269637

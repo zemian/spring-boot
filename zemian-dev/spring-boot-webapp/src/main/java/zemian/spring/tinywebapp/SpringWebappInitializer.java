@@ -14,12 +14,12 @@ public class SpringWebappInitializer extends AbstractAnnotationConfigDispatcherS
 
     @Override
     protected Class<?>[] getServletConfigClasses() {
-        return new Class[] { TinyWebappConfig.class };
+        return new Class[] { SpringWebappConfig.class };
     }
 
     @Override
     protected String[] getServletMappings() {
-        return new String[] { "/main/*" };
+        return new String[] { "/" };
     }
 
 }
