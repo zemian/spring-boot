@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>zemian.spring.boot</groupId>
-    <artifactId>hello</artifactId>
+    <artifactId>hello-bare</artifactId>
     <version>1.0-SNAPSHOT</version>
     
     <parent>

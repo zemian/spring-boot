@@ -1,0 +1,3 @@
+= spring-boot-webapp
+
+A Spring webapp that reuse spring-boot dependencies BOM but not its auto config feature.

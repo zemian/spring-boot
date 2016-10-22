@@ -1,0 +1,3 @@
+= spring-dep
+
+A project to explore Spring dependencies
