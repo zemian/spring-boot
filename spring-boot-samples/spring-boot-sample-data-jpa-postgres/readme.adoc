@@ -1,0 +1,7 @@
+= spring-boot-sample-data-jpa-postgres
+
+This is a copy of spring-boot-sample-data-jpa and made it work with PostgreSQL Database.
+
+== TODO:
+We changed application.properties and able to generate schema with initial run
+but we did not rewrite the import.sql to work with postgres.
