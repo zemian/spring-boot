@@ -1,3 +1,0 @@
-= spring-boot-webapp
-
-A Spring Web application using spring-boot BOM

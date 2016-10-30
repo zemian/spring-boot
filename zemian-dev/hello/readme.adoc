@@ -1,4 +1,0 @@
-= spring-boot hello
-
-A simple hello webapp using spring-boot parent pom. The classic intro example from their reference doc.
-

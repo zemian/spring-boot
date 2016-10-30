@@ -1,3 +1,0 @@
-= spring-boot-webapp
-
-A Spring Boot webapp that uses normal Maven WAR packging instead of spring-boot jar runner.
